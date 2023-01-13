@@ -1,0 +1,29 @@
+/* General  */
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    width: 90%;
+    height: 90%;
+}
+
+/* Header */
+
+#header-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+}
+
+.title{
+    color: #000000;
+    margin-bottom: .2em;
+}
+
+.description-text {
+    color: #9b9999;
+    font-weight: 400;
+}
